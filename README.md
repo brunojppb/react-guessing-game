@@ -1,6 +1,7 @@
 # React Guessing Game
-
 App criado durante o curso [React Para Iniciantes.](https://itroad.com.br/)
+
+![React Guessing Game](https://i.imgur.com/ATQyizl.gif)
 
 ## Dependências
 - node.js
