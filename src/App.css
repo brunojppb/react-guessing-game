@@ -3,6 +3,7 @@
 }
 
 .App-Container  {
+  position: relative;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -13,6 +14,61 @@
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.btn {
+  color: #222;
+  background-color: #09d3ac;
+}
+
+.btn:hover {
+  background-color: #05ad8c;
+}
+
+.btn:active {
+  background-color: #068a70;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: no-drop;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 3px;
+  border: none;
+}
+
+.guess-btn {
+  margin-left: 8px;
+}
+
+.reset-controls {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  padding: 16px;
+}
+
+.winner-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.winner-message {
+  padding: 32px;
+  background-color: white;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  border-radius: 8px;
 }
